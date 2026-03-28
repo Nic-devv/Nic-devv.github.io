@@ -23,10 +23,10 @@ I’m obsessed with iteration, polish, and building systems that empower players
 ## Projects
 
 <div class="project-card">
-  <img src="assets/images/project1.png" class="project-thumb">
+  <img src="assets/images/OrbitLogoV1.png" class="project-thumb">
   <div class="project-info">
-    <h3>Project Title 1</h3>
-    <p>A short description of the project goes here. Clean, modern, and readable.</p>
+    <h3>Orbit Protocol 1</h3>
+    <p>Rouge-Lite Retro Futuristic FPS.</p>
     <a class="project-btn" href="/projects/project1.md">View Project</a>
   </div>
 </div>
