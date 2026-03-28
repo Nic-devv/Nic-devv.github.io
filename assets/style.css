@@ -48,3 +48,57 @@ hr {
     border-color: #4da6ff;
     transform: translateY(-2px);
 }
+/* Header bar */
+.site-header {
+    width: 100%;
+    background: #111;
+    border-bottom: 1px solid #222;
+    padding: 15px 0;
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Navigation links */
+.nav-links a {
+    margin-left: 20px;
+    color: #ccc;
+    font-size: 15px;
+    transition: 0.25s ease;
+}
+
+.nav-links a:hover {
+    color: #4da6ff;
+    text-shadow: 0 0 8px #4da6ff;
+}
+
+/* Animated project card hover */
+.project-card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #222;
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+    border-color: #4da6ff;
+    transform: translateY(-4px);
+    box-shadow: 0 0 12px rgba(77, 166, 255, 0.3);
+}
