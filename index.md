@@ -3,10 +3,21 @@ layout: default
 title: "Nic Sawaya"
 ---
 
-# **Nic Sawaya**
-Game Developer • Programmer • Designer
+## About Me {#about}
 
-Welcome to my portfolio. I build atmospheric, systems‑driven games with a focus on clean mechanics, modular design, and strong visual identity.
+I’m a game developer focused on building atmospheric, systems‑driven experiences with clean mechanics and strong visual identity.  
+My work blends retro‑futuristic aesthetics, modular gameplay systems, and tight moment‑to‑moment feel.
+
+### What I Do
+- FPS mechanics & weapon systems  
+- Modular ability frameworks  
+- Unreal Engine prototyping  
+- UI/UX for gameplay clarity  
+- Worldbuilding & visual identity  
+
+### What Drives Me
+I love creating gameplay that *feels* good — responsive, readable, and expressive.  
+I’m obsessed with iteration, polish, and building systems that empower players to experiment.
 
 ---
 
@@ -38,6 +49,8 @@ I’m a game developer specializing in FPS mechanics, modular systems, and retro
 
 ---
 
-## **Contact**
+## Contact {#contact}
+
 **Email:** your-email-here  
-**GitHub:** https://github.com/Nic-devv
+**GitHub:** https://github.com/Nic-devv  
+
