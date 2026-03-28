@@ -1,7 +1,9 @@
+{% include header.html %}
+
 title: "Nic Sawaya"
 description: "Game Developer Portfolio"
 theme: jekyll-theme-slate
 show_downloads: false
 include:
 - assets/styles.css
-
+- _includes/header.html
