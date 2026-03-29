@@ -240,22 +240,13 @@ main {
     text-decoration: none;
     color: inherit;
     transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
-    height: 200px;
+    height: 240px;
 }
 
-.project-row:hover {
-    border-color: #4da6ff;
-    box-shadow: 0 0 15px rgba(77, 166, 255, 0.2);
-    transform: translateY(-3px);
-}
-
-.project-row.hidden {
-    display: none;
-}
-
-/* Left big main image */
+/* Left cbig image with overlaid tags + title */
 .project-row-left {
-    flex: 0 0 320px;
+    flex: 0 0 55%;
+    position: relative;
     overflow: hidden;
 }
 
@@ -271,54 +262,48 @@ main {
     transform: scale(1.03);
 }
 
-/* Right  info  stacked screenshots */
-.project-row-right {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    background: #111;
-}
-
-/* Title and tags */
-.project-row-info {
-    padding: 1rem 1.2rem 0.75rem;
-    border-bottom: 1px solid #1e1e1e;
-}
-
-.project-row-info h3 {
-    margin: 0 0 0.5rem;
-    font-size: 1.05rem;
-    color: #fff;
-}
-
-.project-tags-row {
+.project-tags-top {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
     display: flex;
     flex-wrap: wrap;
     gap: 0.35rem;
 }
 
-/* Stacked screenshots */
-.project-thumbs-stack {
+.project-title-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.75rem 1rem;
+    background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 70%, transparent 100%);
+}
+
+.project-title-bottom h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Right stacked screenshots */
+.project-row-right {
+    flex: 1;
     display: flex;
-    flex: 1;
-    gap: 2px;
-    padding: 0.5rem 1.2rem 0.75rem;
-    overflow: hidden;
+    flex-direction: column;
+    gap: 3px;
+    padding: 3px;
+    background: #0d0d0d;
 }
 
-.project-thumbs-stack img {
+.project-row-right img {
     flex: 1;
-    width: 0;
+    width: 100%;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 4px;
     border: 1px solid #222;
-    transition: transform 0.2s ease;
 }
 
-.project-thumbs-stack img:hover {
-    transform: scale(1.05);
-    z-index: 1;
-}
 
 /* Screenshots */
 .screenshot-row {
