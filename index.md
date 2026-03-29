@@ -12,8 +12,8 @@ title: "Nic Sawaya"
       I'm a game developer focused on building atmospheric, systems‑driven experiences
       with clean mechanics and strong visual identity. My work blends retro‑futuristic
       aesthetics, modular gameplay systems, and tight moment‑to‑moment feel.
-   <!-- </p>
-     <div class="hero-stats">
+  </p>
+    <!--   <div class="hero-stats">
       <div class="stat">
         <span class="stat-number">2+</span>
         <span class="stat-label">Years Experience</span>
@@ -37,31 +37,38 @@ title: "Nic Sawaya"
     <button class="filter-btn" data-filter="prototype">Prototypes</button>
   </div>
   <div class="project-grid">
-    <div class="project-card" data-category="game">
-      <img src="assets/images/OrbitLogoV1.png" class="project-thumb" alt="Orbit Protocol">
-      <div class="project-info">
-        <div class="project-tags">
-          <span class="tag">Unreal Engine</span>
-          <span class="tag">FPS</span>
-          <span class="tag">Roguelite</span>
-        </div>
-        <h3>Orbit Protocol</h3>
-        <a class="project-btn" href="/projects/orbit-protocol">View Project</a>
-      </div>
-    </div>
+    <a class="project-card" data-category="game" href="/projects/orbit-protocol">
+  <img src="assets/images/OrbitLogoV1.png" class="project-thumb" alt="Orbit Protocol">
+  <div class="project-tags-top">
+    <span class="tag">Unreal Engine</span>
+    <span class="tag">FPS</span>
+    <span class="tag">Roguelite</span>
+    <span class="tag">C++</span>
+  </div>
+  <div class="project-title-bottom">
+    <h3>Orbit Protocol</h3>
+  </div>
+</a>
   </div>
 </section>
 
 <script>
   const filterBtns = document.querySelectorAll('.filter-btn');
   const cards = document.querySelectorAll('.project-card');
+ 
+  cards.forEach(card => {
+    if (card.dataset.category !== 'game') {
+      card.classList.add('hidden');
+    }
+  });
+ 
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       filterBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const filter = btn.dataset.filter;
       cards.forEach(card => {
-        if (filter === 'all' || card.dataset.category === filter) {
+        if (card.dataset.category === filter) {
           card.classList.remove('hidden');
         } else {
           card.classList.add('hidden');
