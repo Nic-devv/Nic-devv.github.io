@@ -1,4 +1,4 @@
-/* dark */
+/* Global dark theme */
 body {
     background: #0d0d0d;
     color: #e6e6e6;
@@ -34,21 +34,7 @@ hr {
     margin: 40px 0;
 }
 
-/* Project cards */
-.project-card {
-    background: #1a1a1a;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    border: 1px solid #222;
-    transition: 0.2s;
-}
-
-.project-card:hover {
-    border-color: #4da6ff;
-    transform: translateY(-2px);
-}
-/* Header bar */
+/* HEADER BAR */
 .site-header {
     width: 100%;
     background: #111;
@@ -87,22 +73,7 @@ hr {
     text-shadow: 0 0 8px #4da6ff;
 }
 
-/* Animated project card hover */
-.project-card {
-    background: #1a1a1a;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    border: 1px solid #222;
-    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
-}
-
-.project-card:hover {
-    border-color: #4da6ff;
-    transform: translateY(-4px);
-    box-shadow: 0 0 12px rgba(77, 166, 255, 0.3);
-}
-/* Project card layout */
+/* PROJECT CARD LAYOUT */
 .project-card {
     display: flex;
     background: #141414;
@@ -113,7 +84,6 @@ hr {
     transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
-/* Hover animation */
 .project-card:hover {
     transform: translateY(-4px);
     border-color: #4da6ff;
@@ -143,23 +113,7 @@ hr {
     line-height: 1.5;
 }
 
-/* Button */
-.project-btn {
-    display: inline-block;
-    padding: 8px 14px;
-    background: #4da6ff;
-    color: #000;
-    border-radius: 6px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.25s ease;
-}
-
-.project-btn:hover {
-    background: #80c1ff;
-    box-shadow: 0 0 10px rgba(128, 193, 255, 0.4);
-}
-/* Bubble button */
+/* BUBBLE BUTTON */
 .project-btn {
     display: inline-block;
     padding: 10px 20px;
@@ -195,7 +149,8 @@ hr {
 .project-btn:hover::after {
     left: 120%;
 }
-/* Screenshot gallery */
+
+/* SCREENSHOT GALLERY */
 .screenshot-row {
     display: flex;
     gap: 15px;
