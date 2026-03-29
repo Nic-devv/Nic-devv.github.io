@@ -1,6 +1,9 @@
 {% include header.html %}
 
 ---
+layout: default
+title: "Nic Sawaya"
+---
 
 
 ## About Me {#about}
