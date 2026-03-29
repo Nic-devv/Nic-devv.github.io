@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Nic Sawaya This is Work in progress"
+title: "Nic Sawaya"
 ---
 
 <section id="about">
@@ -12,8 +12,8 @@ title: "Nic Sawaya This is Work in progress"
       I'm a game developer focused on building atmospheric, systems‑driven experiences
       with clean mechanics and strong visual identity. My work blends retro‑futuristic
       aesthetics, modular gameplay systems, and tight moment‑to‑moment feel.
-    </p>
-    <div class="hero-stats">
+   <!-- </p>
+     <div class="hero-stats">
       <div class="stat">
         <span class="stat-number">2+</span>
         <span class="stat-label">Years Experience</span>
@@ -25,7 +25,7 @@ title: "Nic Sawaya This is Work in progress"
       <div class="stat">
         <span class="stat-number">2</span>
         <span class="stat-label">Engines Used</span>
-      </div>
+      </div> -->
     </div>
     <div class="hero-btns">
       <a href="#projects" class="btn-primary">View Projects</a>
@@ -56,7 +56,7 @@ title: "Nic Sawaya This is Work in progress"
           <span class="tag">C++</span>
         </div>
         <h3>Orbit Protocol</h3>
-        <p>Rogue‑Lite Retro‑Futuristic FPS set aboard a collapsing 1970s space colony.</p>
+        <p>Retro futrisitic FPS set aboard a collapsed colony space ship. </p>
         <a class="project-btn" href="/projects/orbit-protocol">View Project</a>
       </div>
     </div>
@@ -87,9 +87,41 @@ title: "Nic Sawaya This is Work in progress"
 <section id="skills">
   <h2>Skills</h2>
   <p class="section-sub">Tools, technologies, and areas I work in.</p>
-</section>
 
-<hr>
+  <div class="skills-grid">
+
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+      <span>C++</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+      <span>CSS</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
+      <span>SQL</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" alt="Qt Creator">
+      <span>Qt Creator</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" alt="Unreal Engine">
+      <span>Unreal Engine</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+      <span>Git</span>
+    </div>
+
+  </div>
+</section>
 
 <section id="contact">
   <h2>Contact</h2>
