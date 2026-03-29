@@ -1,6 +1,9 @@
 {% include header.html %}
 
 ---
+layout: default
+title: "Nic Sawaya"
+---
 
 ## About Me {#about}
 
@@ -25,8 +28,8 @@ I’m obsessed with iteration, polish, and building systems that empower players
 <div class="project-card">
   <img src="assets/images/OrbitLogoV1.png" class="project-thumb">
   <div class="project-info">
-    <h3>Orbit Protocol 1</h3>
-    <p>Rouge-Lite Retro Futuristic FPS.</p>
+    <h3>Orbit Protocol</h3>
+    <p>Rogue‑Lite Retro‑Futuristic FPS set aboard a collapsing 1970s space colony.</p>
     <a class="project-btn" href="/projects/project1.md">View Project</a>
   </div>
 </div>
@@ -49,17 +52,9 @@ I’m obsessed with iteration, polish, and building systems that empower players
   </div>
 </div>
 
-
-
----
-
-## **About Me**
-I’m a game developer specializing in FPS mechanics, modular systems, and retro‑futuristic aesthetics. I enjoy building tools, solving technical problems, and creating worlds with strong atmosphere and identity.
-
 ---
 
 ## Contact {#contact}
 
 **Email:** your-email-here  
-**GitHub:** https://github.com/Nic-devv  
-
+**GitHub:** https://github.com/Nic-devv
