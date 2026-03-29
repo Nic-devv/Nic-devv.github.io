@@ -354,3 +354,9 @@ footer {
     border-top: 1px solid #1a1a1a;
     margin-top: 4rem;
 }
+.skill-item img[alt="Unreal Engine"] {
+    background: #1a1a1a;
+    border-radius: 50%;
+    padding: 6px;
+    border: 1px solid #333;
+}
