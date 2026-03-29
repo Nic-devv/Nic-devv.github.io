@@ -100,8 +100,7 @@ title: "Nic Sawaya"
     </div>
 
     <div class="skill-item">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
-      
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" /> 
     </div>
 
     <div class="skill-item">
@@ -119,12 +118,12 @@ title: "Nic Sawaya"
     </div>
     <div class="skill-item">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg" alt="Premiere Pro">
-  <span>Premiere Pro</span>
+  
 </div>
 
 <div class="skill-item">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio">
-  <span>Visual Studio</span>
+  
 </div>
 
   </div>
