@@ -35,9 +35,7 @@ main {
     padding: 40px 20px;
 }
 
-/* ============================================================
-   HEADER
-   ============================================================ */
+/*HEADER*/
 .site-header {
     width: 100%;
     background: #111;
@@ -76,9 +74,7 @@ main {
     text-shadow: 0 0 8px #4da6ff;
 }
 
-/* ============================================================
-   HERO
-   ============================================================ */
+/*About me */
 .hero {
     display: flex;
     flex-direction: column;
@@ -187,9 +183,7 @@ main {
     color: #4da6ff;
 }
 
-/* ============================================================
-   PROJECTS
-   ============================================================ */
+/*Projects*/
 #projects {
     padding: 2rem 0;
 }
@@ -299,9 +293,7 @@ main {
     color: #fff;
 }
 
-/* ============================================================
-   SCREENSHOTS
-   ============================================================ */
+/*Screen Shots*/
 .screenshot-row {
     display: flex;
     gap: 15px;
@@ -320,9 +312,7 @@ main {
     box-shadow: 0 0 12px rgba(77, 166, 255, 0.3);
 }
 
-/* ============================================================
-   SKILLS
-   ============================================================ */
+/*Skills */
 .skills-grid {
     display: flex;
     flex-wrap: wrap;
@@ -343,9 +333,7 @@ main {
     height: 44px;
 }
 
-/* ============================================================
-   FOOTER
-   ============================================================ */
+/*Footer */
 footer {
     text-align: center;
     padding: 2rem;
@@ -354,9 +342,12 @@ footer {
     border-top: 1px solid #1a1a1a;
     margin-top: 4rem;
 }
-.skill-item img[alt="Unreal Engine"] {
+.skill-item img {
+    width: 44px;
+    height: 44px;
     background: #1a1a1a;
-    border-radius: 50%;
-    padding: 6px;
-    border: 1px solid #333;
+    border-radius: 999px;
+    padding: 8px;
+    border: 1px solid #2a2a2a;
+    box-sizing: content-box;
 }
