@@ -195,3 +195,21 @@ hr {
 .project-btn:hover::after {
     left: 120%;
 }
+/* Screenshot gallery */
+.screenshot-row {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.screenshot-row img {
+    width: 32%;
+    border-radius: 8px;
+    border: 1px solid #333;
+    transition: 0.25s ease;
+}
+
+.screenshot-row img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 12px rgba(77, 166, 255, 0.3);
+}
