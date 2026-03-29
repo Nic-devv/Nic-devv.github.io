@@ -159,3 +159,39 @@ hr {
     background: #80c1ff;
     box-shadow: 0 0 10px rgba(128, 193, 255, 0.4);
 }
+/* Bubble button */
+.project-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #4da6ff, #1e90ff);
+    color: #000;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover lift + glow */
+.project-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(77, 166, 255, 0.5);
+}
+
+/* Highlight sweep animation */
+.project-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 60%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.35);
+    transform: skewX(-20deg);
+    transition: 0.4s ease;
+}
+
+.project-btn:hover::after {
+    left: 120%;
+}
