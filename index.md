@@ -13,7 +13,7 @@ title: "Nic Sawaya"
       with clean mechanics and strong visual identity. My work blends retro‑futuristic
       aesthetics, modular gameplay systems, and tight moment‑to‑moment feel.
     </p>
-    <div class="hero-stats">
+   <!--  <div class="hero-stats">
       <div class="stat">
         <span class="stat-number">2+</span>
         <span class="stat-label">Years Experience</span>
@@ -25,7 +25,7 @@ title: "Nic Sawaya"
       <div class="stat">
         <span class="stat-number">2</span>
         <span class="stat-label">Engines Used</span>
-      </div>
+      </div> -->
     </div>
     <div class="hero-btns">
       <a href="#projects" class="btn-primary">View Projects</a>
