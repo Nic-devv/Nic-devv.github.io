@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Project Title 1"
+title: "Orbit Protocol"
 ---
 
 # **Project Title 1**
@@ -9,8 +9,13 @@ title: "Project Title 1"
 Write a short summary of the project here.
 
 ## Screenshots
-![Screenshot](../assets/images/screenshot1.png)
+<div class="screenshot-row">
+  <img src="/assets/images/project1-shot1.png">
+  <img src="/assets/images/project1-shot2.png">
+  <img src="/assets/images/project1-shot3.png">
+</div>
 
 ## Download / Play
 - [Download Build](#)
 - [Play Web Version](#)
+- 
