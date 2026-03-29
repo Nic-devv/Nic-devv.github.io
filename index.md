@@ -119,6 +119,15 @@ title: "Nic Sawaya"
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
       <span>Git</span>
     </div>
+    <div class="skill-item">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg" alt="Premiere Pro">
+  <span>Premiere Pro</span>
+</div>
+
+<div class="skill-item">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio">
+  <span>Visual Studio</span>
+</div>
 
   </div>
 </section>
