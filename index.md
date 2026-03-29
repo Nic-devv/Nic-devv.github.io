@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Nic Sawaya"
+title: "Nic Sawaya This is Work in progress"
 ---
 
 <section id="about">
