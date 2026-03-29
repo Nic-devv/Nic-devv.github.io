@@ -226,40 +226,39 @@ main {
 }
 
 
-.project-list {
-    display: flex;
-    flex-direction: column;
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 1.5rem;
 }
 
-.project-row {
-    display: flex;
-    border: 1px solid #222;
+.project-card {
+    position: relative;
     border-radius: 12px;
     overflow: hidden;
+    border: 1px solid #222;
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+    aspect-ratio: 16 / 9;
+    display: block;
+    cursor: pointer;
     text-decoration: none;
-    color: inherit;
-    transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
-    height: 240px;
 }
 
-/* Left cbig image with overlaid tags + title */
-.project-row-left {
-    flex: 0 0 55%;
-    position: relative;
-    overflow: hidden;
+.project-card:hover {
+    transform: translateY(-4px);
+    border-color: #4da6ff;
+    box-shadow: 0 0 15px rgba(77, 166, 255, 0.25);
 }
 
-.project-main-shot {
+.project-card.hidden {
+    display: none;
+}
+
+.project-thumb {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 0.3s ease;
-}
-
-.project-row:hover .project-main-shot {
-    transform: scale(1.03);
 }
 
 .project-tags-top {
@@ -269,6 +268,15 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 0.35rem;
+}
+
+.tag {
+    font-size: 0.68rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: #ddd;
+    background: rgba(0,0,0,0.4);
 }
 
 .project-title-bottom {
@@ -285,26 +293,6 @@ main {
     font-size: 1rem;
     color: #fff;
 }
-
-/* Right stacked screenshots */
-.project-row-right {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    padding: 3px;
-    background: #0d0d0d;
-}
-
-.project-row-right img {
-    flex: 1;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 4px;
-    border: 1px solid #222;
-}
-
-
 /* Screenshots */
 .screenshot-row {
     display: flex;
