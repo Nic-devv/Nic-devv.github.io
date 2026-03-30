@@ -9,9 +9,9 @@ title: "Nic Sawaya"
     <h1 class="hero-name">Nic Sawaya</h1>
     <p class="hero-tagline">Game Developer · FPS Systems · Unreal Engine</p>
     <p class="hero-bio">
-      I'm a game developer focused on building atmospheric, systems‑driven experiences
-      with clean mechanics and strong visual identity. My work blends retro‑futuristic
-      aesthetics, modular gameplay systems, and tight moment‑to‑moment feel.
+      I'm a game designer and programmer focused on building systems driven experiences
+      with clean mechanics and satisfying loops. My work 
+       centers around modular gameplay systems, and building organized, purposeful environments. 
     </p>
     <!-- <div class="hero-stats">
       <div class="stat">
