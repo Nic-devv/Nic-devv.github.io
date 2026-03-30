@@ -39,10 +39,10 @@ title: "Nic Sawaya"
 
 <section id="projects">
   <h2>Projects</h2>
-  <p class="section-sub">A collection of games, apps, and prototypes I've built and iterated on.</p>
+  <p class="section-sub">A collection of Games, apps, and prototypes I've built and iterated on.</p>
 
   <div class="filter-tabs">
-    <button class="filter-btn active" data-filter="game">Demos</button>
+    <button class="filter-btn active" data-filter="game">Games</button>
     <button class="filter-btn" data-filter="app">Apps</button>
     <button class="filter-btn" data-filter="prototype">Prototypes</button>
   </div>
