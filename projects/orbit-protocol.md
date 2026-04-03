@@ -52,7 +52,7 @@ title: "Orbit Protocol"
 <section id="project-screenshots">
   <h2>Screenshots</h2>
   <div class="screenshot-gallery">
-    <img src="/assets/images/OP_SS1" alt="Screenshot 1">
+    <img src="/assets/images/OP_SS1.png" alt="Screenshot 1">
     <img src="/assets/images/OP_SS2.png" alt="Screenshot 2">
     <img src="/assets/images/OP_SS3.png" alt="Screenshot 3">
     <img src="/assets/images/OP_SS4.png" alt="Screenshot 4">
