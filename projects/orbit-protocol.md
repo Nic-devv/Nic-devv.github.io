@@ -52,12 +52,13 @@ title: "Orbit Protocol"
 <section id="project-screenshots">
   <h2>Screenshots</h2>
   <div class="screenshot-gallery">
-    <img src="/assets/images/orbit-screen1.png" alt="Screenshot 1">
-    <img src="/assets/images/orbit-screen2.png" alt="Screenshot 2">
-    <img src="/assets/images/orbit-screen3.png" alt="Screenshot 3">
-    <img src="/assets/images/orbit-screen4.png" alt="Screenshot 4">
-    <img src="/assets/images/orbit-screen5.png" alt="Screenshot 5">
-    <img src="/assets/images/orbit-screen6.png" alt="Screenshot 6">
+    <img src="/assets/images/OP_SS1" alt="Screenshot 1">
+    <img src="/assets/images/OP_SS2.png" alt="Screenshot 2">
+    <img src="/assets/images/OP_SS3.png" alt="Screenshot 3">
+    <img src="/assets/images/OP_SS4.png" alt="Screenshot 4">
+    <img src="/assets/images/OP_SS5.png" alt="Screenshot 5">
+    <img src="/assets/images/OP_SS6.png" alt="Screenshot 6">
+    <img src="/assets/images/OP_SS7.png" alt="Screenshot 7">
   </div>
 </section>
 
