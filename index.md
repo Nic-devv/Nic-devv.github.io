@@ -111,16 +111,16 @@ title: "Nic Sawaya"
   <div class="project-grid">
 
     <a class="project-card" href="/projects/chroma-bench">
-      <img src="/assets/images/ChromaBenchBannerV1.png" class="project-page-banner" alt="Chroma Bench" style="max-height: 350px; object-fit: contain; width: 100%;">
-      <div class="project-tags-top">
-        <span class="tag">Color Visualization</span>
-        <span class="tag">Color Science UI</span>
-        <span class="tag">NDA‑Compliant</span>
-      </div>
-      <div class="project-title-bottom">
-        <h3>Chroma Bench</h3>
-      </div>
-    </a>
+  <img src="/assets/images/ChromaBenchBannerV1.png" class="project-thumb" alt="Chroma Bench" style="object-fit: contain; background: #1a1a1a;">
+  <div class="project-tags-top">
+    <span class="tag">Color Visualization</span>
+    <span class="tag">Color Science UI</span>
+    <span class="tag">NDA‑Compliant</span>
+  </div>
+  <div class="project-title-bottom">
+    <h3>Chroma Bench</h3>
+  </div>
+</a>
 
   </div>
 </section>
