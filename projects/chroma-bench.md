@@ -14,7 +14,7 @@ title: "Chroma Bench"
     <h1 class="project-page-title">Chroma Bench</h1>
     <p class="project-page-sub">Turns raw color data into clean, readable visualizations and comparisons.</p>
   </div>
-  <img src="/assets/images/ChromaBenchBanner.png" class="project-page-banner" alt="Chroma Bench" style="max-height: 250px; object-fit: contain;">
+  <img src="/assets/images/ChromaBenchBannerV1.png" class="project-page-banner" alt="Chroma Bench" style="max-height: 250px; object-fit: contain;">
 </section>
 
 <hr>
