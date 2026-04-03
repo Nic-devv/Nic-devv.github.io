@@ -116,7 +116,7 @@ title: "Nic Sawaya"
       <span class="tag">Color Science UI</span>
       <span class="tag">NDA‑Compliant</span>
     </div>
-    <div class="project-title-bottom" style="background: rgba(0,0,0,0.85); padding: 0.4rem 1rem;">
+    <div class="project-title-bottom" style="background: rgba(0,0,0,0.85); padding: 0.25rem 1rem;">
       <h3>Chroma Bench</h3>
     </div>
   </a>
