@@ -77,3 +77,56 @@ title: "Chroma Bench"
     <img src="/assets/images/CB_SS6.png" alt="Screenshot 6">
   </div>
 </section>
+<!-- Lightbox -->
+<div class="lightbox-overlay" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close">✕</button>
+  <button class="lightbox-prev" id="lightbox-prev">‹</button>
+  <img class="lightbox-img" id="lightbox-img" src="" alt="">
+  <button class="lightbox-next" id="lightbox-next">›</button>
+</div>
+
+<script>
+  const gallery = document.querySelectorAll('.screenshot-gallery img');
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  let current = 0;
+
+  function openLightbox(index) {
+    current = index;
+    lightboxImg.src = gallery[current].src;
+    lightbox.classList.add('active');
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('active');
+  }
+
+  function showPrev() {
+    current = (current - 1 + gallery.length) % gallery.length;
+    lightboxImg.src = gallery[current].src;
+  }
+
+  function showNext() {
+    current = (current + 1) % gallery.length;
+    lightboxImg.src = gallery[current].src;
+  }
+
+  gallery.forEach((img, i) => {
+    img.addEventListener('click', () => openLightbox(i));
+  });
+
+  document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+  document.getElementById('lightbox-prev').addEventListener('click', showPrev);
+  document.getElementById('lightbox-next').addEventListener('click', showNext);
+
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (!lightbox.classList.contains('active')) return;
+    if (e.key === 'ArrowLeft') showPrev();
+    if (e.key === 'ArrowRight') showNext();
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
