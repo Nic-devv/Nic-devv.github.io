@@ -63,17 +63,19 @@ title: "Nic Sawaya"
       </div>
     </a>
 
-    <!-- PLACEHOLDER GAME -->
-    <a class="project-card" data-category="game" href="#">
-      <img src="https://placehold.co/320x180/111/333?text=Coming+Soon" class="project-thumb" alt="Project Title">
-      <div class="project-tags-top">
-        <span class="tag">Unreal Engine</span>
-        <span class="tag">Coming Soon</span>
-      </div>
-      <div class="project-title-bottom">
-        <h3>Project Title</h3>
-      </div>
-    </a>
+
+<!-- Velociy Loop -->
+   <a class="project-card" data-category="game" href="/projects/velocity-loop">
+  <img src="/assets/images/VelocityLoopBanner.png" class="project-thumb" alt="Velocity Loop">
+  <div class="project-tags-top">
+    <span class="tag">Unreal Engine</span>
+    <span class="tag">3rd Person</span>
+    <span class="tag">Platformer</span>
+  </div>
+  <div class="project-title-bottom">
+    <h3>Velocity Loop</h3>
+  </div>
+</a>
 
     <!-- PLACEHOLDER APP -->
     <a class="project-card" data-category="app" href="#">
