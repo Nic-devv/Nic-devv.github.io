@@ -13,7 +13,7 @@ title: "Orbit Protocol"
       <span class="tag">C++</span>
     </div>
     <h1 class="project-page-title">Orbit Protocol</h1>
-    <p class="project-page-sub">Rogue‑Lite Retro‑Futuristic FPS </p>
+    <p class="project-page-sub">Rogue‑Lite Retro‑Futuristic FPS</p>
   </div>
   <img src="/assets/images/OrbitLogoV1.png" class="project-page-banner" alt="Orbit Protocol">
 </section>
@@ -23,27 +23,43 @@ title: "Orbit Protocol"
 <section id="project-description">
   <h2>About the Project</h2>
   <p>
-    Orbit Protocol is a roguelite FPS set aboard a decaying 1970s space colony. 
-    Players fight through hordes of enemies gaining power on each level completion. Till they reach an anomaly level where they must complet a puzzle and defeat a boss.
+    Orbit Protocol is a roguelite FPS set aboard a decaying 1970s space colony.
+    Players fight through hordes of enemies gaining power on each level completion. Till they reach an anomaly level where they must complete a puzzle and defeat a boss.
   </p>
   <p>
-   The game focuses on increasing player power while navigating interactive boss fights and dynamic levels.
+    The game focuses on increasing player power while navigating interactive boss fights and dynamic levels.
   </p>
 </section>
 
 <hr>
 
-<section id="project-video">
-  <h2>Trailer</h2>
-  <div class="video-embed">
-    <!-- Replace the src with your YouTube embed URL -->
-    <!-- Example: src="https://www.youtube.com/embed/YOUR_VIDEO_ID" -->
-    <iframe
-      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-      title="Orbit Protocol Trailer"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
+<section id="project-tech">
+  <h2>Tech Breakdown</h2>
+  <div class="tech-grid">
+    <div class="tech-card">
+      <h3>Engine</h3>
+      <p>Unreal Engine 5 — Blueprints and level building.</p>
+    </div>
+    <div class="tech-card">
+      <h3>FPS Mechanics</h3>
+      <p>Custom character movement, weapon handling, and hit detection built with Blueprint interfaces and data tables for rapid iteration.</p>
+    </div>
+    <div class="tech-card">
+      <h3>Weapon Systems</h3>
+      <p>Modular weapon framework allowing for a wide variety of weapons and weapon stats.</p>
+    </div>
+    <div class="tech-card">
+      <h3>Ability Framework</h3>
+      <p>Data-driven ability system built on Unreal's Gameplay Ability System (GAS).</p>
+    </div>
+    <div class="tech-card">
+      <h3>UI / UX</h3>
+      <p>In-world diegetic UI elements alongside minimal HUD design.</p>
+    </div>
+    <div class="tech-card">
+      <h3>Version Control</h3>
+      <p>Git with LFS for asset management across the project lifecycle.</p>
+    </div>
   </div>
 </section>
 
@@ -64,40 +80,14 @@ title: "Orbit Protocol"
 
 <hr>
 
-<section id="project-tech">
-  <h2>Tech Breakdown</h2>
-
-  <div class="tech-grid">
-
-    <div class="tech-card">
-      <h3>Engine</h3>
-      <p>Unreal Engine 5 — Blueprints and level building. </p>
-    </div>
-
-    <div class="tech-card">
-      <h3>FPS Mechanics</h3>
-      <p>Custom character movement, weapon handling, and hit detection built with Blueprint interfaces and data tables for rapid iteration.</p>
-    </div>
-
-    <div class="tech-card">
-      <h3>Weapon Systems</h3>
-      <p>Modular weapon framework allowing for a wide verity of weapons and weapon stats. </p>
-    </div>
-
-    <div class="tech-card">
-      <h3>Ability Framework</h3>
-      <p>Data-driven ability system built on Unreal's Gameplay Ability System (GAS).</p>
-    </div>
-
-    <div class="tech-card">
-      <h3>UI / UX</h3>
-      <p>In-world diegetic UI elements alongside minimal HUD design.</p>
-    </div>
-
-    <div class="tech-card">
-      <h3>Version Control</h3>
-      <p>Git with LFS for asset management across the project lifecycle.</p>
-    </div>
-
+<section id="project-video">
+  <h2>Trailer</h2>
+  <div class="video-embed">
+    <iframe
+      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+      title="Orbit Protocol Trailer"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
   </div>
 </section>
