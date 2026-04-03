@@ -11,7 +11,7 @@ title: "Nic Sawaya"
     <p class="hero-bio">
       I'm a game designer and programmer focused on building systems driven experiences
       with clean mechanics and satisfying loops. My work 
-       centers around modular gameplay systems, and building organized, purposeful environments. 
+      centers around modular gameplay systems, and building organized, purposeful environments.
     </p>
     <!-- <div class="hero-stats">
       <div class="stat">
@@ -39,17 +39,15 @@ title: "Nic Sawaya"
 
 <section id="projects">
   <h2>Projects</h2>
-  <p class="section-sub">A collection of Games, apps, and prototypes I've built and iterated on.</p>
+  <p class="section-sub">A collection of games and prototypes I've built and iterated on.</p>
 
   <div class="filter-tabs">
     <button class="filter-btn active" data-filter="game">Games</button>
-    <button class="filter-btn" data-filter="app">Apps</button>
     <button class="filter-btn" data-filter="prototype">Prototypes</button>
   </div>
 
   <div class="project-grid">
 
-    <!-- ORBIT PROTOCOL -->
     <a class="project-card" data-category="game" href="/projects/orbit-protocol">
       <img src="assets/images/OrbitLogoV1.png" class="project-thumb" alt="Orbit Protocol">
       <div class="project-tags-top">
@@ -63,33 +61,17 @@ title: "Nic Sawaya"
       </div>
     </a>
 
-
-<!-- Velociy Loop -->
-   <a class="project-card" data-category="game" href="/projects/velocity-loop">
-  <img src="/assets/images/VelocityLoopBanner.png" class="project-thumb" alt="Velocity Loop">
-  <div class="project-tags-top">
-    <span class="tag">Unreal Engine</span>
-    <span class="tag">3rd Person</span>
-    <span class="tag">Platformer</span>
-  </div>
-  <div class="project-title-bottom">
-    <h3>Velocity Loop</h3>
-  </div>
-</a>
-
-
-<!-- chroma bech app -->
-    <a class="project-card" data-category="app" href="/projects/chroma-bench">
-  <img src="/assets/images/ChromaBenchBanner.png" class="project-thumb" alt="Chroma Bench">
-  <div class="project-tags-top">
-    <span class="tag">Color Visualization</span>
-    <span class="tag">Color Science UI</span>
-    <span class="tag">NDA‑Compliant</span>
-  </div>
-  <div class="project-title-bottom">
-    <h3>Chroma Bench</h3>
-  </div>
-</a>
+    <a class="project-card" data-category="game" href="/projects/velocity-loop">
+      <img src="/assets/images/VelocityLoopBanner.png" class="project-thumb" alt="Velocity Loop">
+      <div class="project-tags-top">
+        <span class="tag">Unreal Engine</span>
+        <span class="tag">3rd Person</span>
+        <span class="tag">Platformer</span>
+      </div>
+      <div class="project-title-bottom">
+        <h3>Velocity Loop</h3>
+      </div>
+    </a>
 
   </div>
 </section>
@@ -122,6 +104,29 @@ title: "Nic Sawaya"
 
 <hr>
 
+<section id="apps">
+  <h2>Apps</h2>
+  <p class="section-sub">Software and tools I've designed and built.</p>
+
+  <div class="project-grid">
+
+    <a class="project-card" href="/projects/chroma-bench">
+      <img src="/assets/images/ChromaBenchBanner.png" class="project-thumb" alt="Chroma Bench">
+      <div class="project-tags-top">
+        <span class="tag">Color Visualization</span>
+        <span class="tag">Color Science UI</span>
+        <span class="tag">NDA‑Compliant</span>
+      </div>
+      <div class="project-title-bottom">
+        <h3>Chroma Bench</h3>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<hr>
+
 <section id="skills">
   <h2>Skills</h2>
   <p class="section-sub">Tools, technologies, and areas I work in.</p>
@@ -130,7 +135,7 @@ title: "Nic Sawaya"
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
     </div>
     <div class="skill-item">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg" alt="Unreal Engine">
     </div>
     <div class="skill-item">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" alt="Qt Creator">
@@ -152,7 +157,7 @@ title: "Nic Sawaya"
     </div>
     <div class="skill-item">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
-  </div>
+    </div>
   </div>
 </section>
 
