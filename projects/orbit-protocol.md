@@ -13,7 +13,7 @@ title: "Orbit Protocol"
       <span class="tag">C++</span>
     </div>
     <h1 class="project-page-title">Orbit Protocol</h1>
-    <p class="project-page-sub">Rogue‑Lite Retro‑Futuristic FPS set aboard a collapsing 1970s space colony.</p>
+    <p class="project-page-sub">Rogue‑Lite Retro‑Futuristic FPS </p>
   </div>
   <img src="/assets/images/OrbitLogoV1.png" class="project-page-banner" alt="Orbit Protocol">
 </section>
@@ -24,12 +24,10 @@ title: "Orbit Protocol"
   <h2>About the Project</h2>
   <p>
     Orbit Protocol is a roguelite FPS set aboard a decaying 1970s space colony. 
-    Players fight through procedurally influenced combat arenas, unlocking modular 
-    weapon systems and abilities as the colony falls apart around them.
+    Players fight through hordes of enemies gaining power on each level completion. Till they reach an anomaly level where they must complet a puzzle and defeat a boss.
   </p>
   <p>
-    The game focuses on tight moment-to-moment feel, responsive FPS mechanics, 
-    and a strong retro-futuristic visual identity inspired by 1970s sci-fi aesthetics.
+   The game focuses on increasing player power while navigating interactive boss fights and dynamic levels.
   </p>
 </section>
 
