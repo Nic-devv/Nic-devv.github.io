@@ -15,7 +15,7 @@ title: "Orbit Protocol"
     <h1 class="project-page-title">Orbit Protocol</h1>
     <p class="project-page-sub">Rogue‑Lite Retro‑Futuristic FPS</p>
   </div>
-  <img src="/assets/images/OrbitLogoV1.png" class="project-page-banner" alt="Orbit Protocol">
+  <img src="/assets/images/OrbitLogoV1.png" class="project-page-banner" alt="Orbit Protocol" style="max-height: 250px; object-fit: contain;">
 </section>
 
 <hr>
