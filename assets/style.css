@@ -553,3 +553,6 @@ Orbit Protocol Page
 .screenshot-gallery img {
     cursor: pointer;
 }
+.card-no-overlay .project-title-bottom {
+    background: rgba(0,0,0,0.6);
+}
