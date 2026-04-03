@@ -145,6 +145,9 @@ title: "Nic Sawaya"
     <div class="skill-item">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio">
     </div>
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+  </div>
   </div>
 </section>
 
