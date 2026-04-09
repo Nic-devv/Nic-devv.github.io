@@ -50,11 +50,11 @@ title: "Orbit Protocol"
     </div>
     <div class="tech-card">
       <h3>Ability Framework</h3>
-      <p>Data-driven ability system built on Unreal's Gameplay Ability System (GAS).</p>
+      <p>Ability system built on Unreal's Gameplay Ability System (GAS).</p>
     </div>
     <div class="tech-card">
       <h3>UI / UX</h3>
-      <p>In-world diegetic UI elements alongside minimal HUD design.</p>
+      <p>In world diegetic UI elements alongside minimal HUD design.</p>
     </div>
     <div class="tech-card">
       <h3>Version Control</h3>
