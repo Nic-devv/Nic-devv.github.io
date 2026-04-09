@@ -105,7 +105,7 @@ title: "Nic Sawaya"
 <hr>
 
 <section id="apps">
-  <h2>Apps</h2>
+  <h2>Apps/Tools</h2>
   <p class="section-sub">Software and tools I've designed and built.</p>
 
  <div class="project-grid">
@@ -117,7 +117,7 @@ title: "Nic Sawaya"
       <span class="tag">NDA‑Compliant</span>
     </div>
     <div class="project-title-bottom" style="background: rgba(0,0,0,0.85); padding: 0.25rem 1rem;">
-      <h3>Chroma Bench</h3>
+      <h3>Chroma Bench(Beta)</h3>
     </div>
   </a>
 </div>
