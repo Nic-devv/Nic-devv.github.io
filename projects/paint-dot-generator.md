@@ -13,7 +13,7 @@ title: "Paint Dot Generator"
       <span class="tag">HTML</span>
     </div>
     <h1 class="project-page-title">Paint Dot Generator</h1>
-    <p class="project-page-sub">A paint color visualizer built to be iframed into Land of Color.</p>
+    <p class="project-page-sub">A paint color visualizer and mood board tool built for Land of Color.</p>
   </div>
   <img src="/assets/images/PaintDotBanner.png" class="project-page-banner" alt="Paint Dot Generator" style="max-height: 250px; object-fit: contain;">
 </section>
@@ -25,52 +25,45 @@ title: "Paint Dot Generator"
   <p>
     Paint Dot Generator is a web-based paint color visualization tool that lets users browse, 
     search, and preview paint colors in a clean, intuitive interface. Built with vanilla 
-    JavaScript, CSS, and HTML, it is designed to be embedded via iframe into the Land of Color platform.
+    JavaScript, CSS, and HTML, it is designed to be embedded into the Land of Color platform.
   </p>
   <p>
-    The app pulls from a large database of paint color values hosted on AWS, rendering accurate 
-    color previews with a focus on performance, usability, and strong visual branding.
+    The tool also includes a lightweight Mood Board editor, allowing users to drag, arrange, 
+    and experiment with paint blobs and reference images on a freeform canvas.
   </p>
 </section>
 
 <hr>
 
-<section id="project-tech">
-  <h2>Tech Breakdown</h2>
-  <div class="tech-grid">
-    <div class="tech-card">
-      <h3>AWS Hosting</h3>
-      <p>Application and assets hosted on AWS, ensuring reliable uptime, fast delivery, and scalable infrastructure for the embedded tool.</p>
-    </div>
-    <div class="tech-card">
-      <h3>Large Database Management</h3>
-      <p>Manages a large dataset of paint color values including names, hex codes, and vendor data — optimized for fast search and retrieval.</p>
-    </div>
-    <div class="tech-card">
-      <h3>UI / UX Design</h3>
-      <p>Clean, minimal interface designed for ease of use — users can search, browse, and preview colors with immediate visual feedback.</p>
-    </div>
-    <div class="tech-card">
-      <h3>Branding</h3>
-      <p>Visual identity designed to align with the Land of Color platform — consistent color language, typography, and component styling throughout.</p>
-    </div>
-    <div class="tech-card">
-      <h3>iframe Integration</h3>
-      <p>Built specifically to be embedded via iframe into third-party platforms, with responsive layout and clean boundaries for seamless integration.</p>
-    </div>
-    <div class="tech-card">
-      <h3>Vanilla JS / HTML / CSS</h3>
-      <p>No frameworks or dependencies — built entirely with vanilla JavaScript, HTML, and CSS for a lightweight, fast-loading experience.</p>
-    </div>
+
+<section id="mood-board">
+  <h2>Mood Board Editor</h2>
+  <p>
+    A built‑in mini image editor that lets users drag, arrange, and experiment with paint colors 
+    on a freeform canvas. Designed for quick palette exploration and visual inspiration.
+  </p>
+
+  <div class="screenshot-gallery">
+    <img src="/assets/images/paintdot/pdgss1.png" alt="Mood Board Screenshot 1">
+    <img src="/assets/images/paintdot/pdgss2.png" alt="Mood Board Screenshot 2">
+    <img src="/assets/images/paintdot/pdgss3.png" alt="Mood Board Screenshot 3">
   </div>
 </section>
 
 <hr>
 
-<section id="project-live">
-  <h2>Live Tool</h2>
-  <div class="iframe-embed">
-    <iframe src="https://nicsawaya.github.io/PaintBlobTool/" title="Paint Dot Generator"></iframe>
+
+<section id="color-picker">
+  <h2>Color Picker & Blob Generator</h2>
+  <p>
+    The main interface for browsing, searching, and previewing paint colors. Users can generate 
+    branded paint blobs, explore color attributes, and view accurate swatches in real time.
+  </p>
+
+  <div class="screenshot-gallery">
+    <img src="/assets/images/paintdot/pdgss4.png" alt="Color Picker Screenshot 1">
+    <img src="/assets/images/paintdot/pdgss5.png" alt="Color Picker Screenshot 2">
+    <img src="/assets/images/paintdot/pdgss6.png" alt="Color Picker Screenshot 3">
   </div>
 </section>
 
