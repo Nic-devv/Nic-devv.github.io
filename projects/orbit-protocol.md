@@ -38,7 +38,7 @@ title: "Orbit Protocol"
   <div class="tech-grid">
     <div class="tech-card">
       <h3>Engine</h3>
-      <p>Unreal Engine 5 — Blueprints and level building.</p>
+      <p>Unreal Engine 5 Blueprints and level building.</p>
     </div>
     <div class="tech-card">
       <h3>FPS Mechanics</h3>
